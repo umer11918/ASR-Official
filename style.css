@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+  padding: 0 20px ;
+  padding-right: 20px;
+}
+.logo-container {
+    display: flex; /* Use flex display for layout */
+    align-items: center; /* Vertically align items */
+}
+img.logo{width: 90%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 4px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    size: 20px;
+
+}
+
+img.logoimage{width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 4px solid #333;
+  border-radius: 50%; /* Make it circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 15px;
+  size: 20px;
+
+}
+.logo-text{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+
+}
+.asrbtn-text{
+   width: 200px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 70px;
+    padding: 40px 20px;
+    display: flex;
+    width: 40%;
+    color: White;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link-container {
+  display: flex; /* Use flex display for layout */
+  align-items: center; /* Vertically align items */
+}
+.left-text{
+  width: 80%;
+  border: 5px solid #000;
+  padding: 50px;
+  margin: 50px;
+  padding: 40px 28px;
+  display: flex;
+  width: 60%;
+  color: Black;
+  background-color: rgb(218, 218, 11);
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+  padding: 30px;
+}
+.links-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #000;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin: 50px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+}
+
+/*teaching*/
+img.images{
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 4px solid #333;
+    border-radius: 55%; /* Make it circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    size: 20px;
+}
+
+
+/*nav-bar*/
+.navbar{
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+
+}.navbar .active{
+    font-size: 24px;
+    color: white;
+    display: inline;
+    padding: 20px 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar a:hover{
+    color: rgb(192, 186, 186);
+    background-color: transparent;
+}
+.navbar a .active{
+    display: inline;
+    color: white;
+    font-size: 28px;
+}
+.main{
+  padding: 70px;
+  display: flex;
+  align-items: center;
+}
+.main-logo{
+  width: 100%;
+  padding: 40px;
+  font-size: 29px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.heading{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    padding: 45px;
+    text-align: center;
+    align-items: center;
+    border: 4px solid black;
+
+}
+.paragraph{
+    padding: 30px;
+    width: 100%;
+    background-color: #7a7676;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.subhead{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  width: 90%;
+
+}
+.para{
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(190, 33, 33);
+}
+
+/*icons*/
+.icons{
+    text-align: center;
+    justify-content: center;
+    padding: 70px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: black;
+}
+/* Twitter */
+.fa-twitter {
+  background: #f6f8fa;
+  color: black;
+}
+.fa-instagram {
+    background: red;
+    color: #ffff
+    ;
+}
+/*About Us*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .about-page{
+    padding: 30px;
+    width: 100%;
+
+  }
+  html {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    width: 100%;
+    padding: 80px;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+/*Contact Us*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
